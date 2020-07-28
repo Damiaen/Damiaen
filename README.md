@@ -29,7 +29,7 @@ class About extends Me
     {
         return [
             'skills' => [
-                'app_development' => 'Creating Android and IOS apps with the Ionic Framework',
+                'app_development' => 'Creating Android and iOS apps with the Ionic Framework',
                 'web_development' => 'Back-end development with the Laravel Framework'
             ]
         ];

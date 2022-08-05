@@ -6,7 +6,6 @@ namespace DamiaenToussaint;
 class About extends Me
 {
     /**
-     * @todo Update skills when we get more.
      * @return array
      */
     public function getPersonalData(): array
@@ -14,13 +13,13 @@ class About extends Me
         return [
             'data' => [
                 'name' => 'Damiaen Toussaint',
-                'education' => 'HBO ICT Software Engineering, NHLStenden University',
-                'occupation' => 'App and Web developer at NoardCode',
+                'education' => 'Bachelor\'s degree in Software engineering',
+                'occupation' => 'Softwaredeveloper at NoardCode',
                 'linkedin' => 'www.linkedin.com/in/damiaen-toussaint',
-                'personal_site' => 'www.damiaentoussaint.nl',
+                'personal_site' => 'www.damiaen.nl',
                 'skills' => [
-                    'app' => 'Creating Android and iOS apps with the Ionic Framework',
-                    'web' => 'Back-end development with the Laravel Framework'
+                    'app' => 'Developing Android and iOS apps with Ionic',
+                    'web' => 'Developing back-end applications with Laravel'
                 ]
             ]
         ];
